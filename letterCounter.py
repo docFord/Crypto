@@ -1,0 +1,12 @@
+#!/usr/bin/python
+
+#paste your ciphertext below
+ct = "ieeeoeasfnuesilwnltttihsnnsxrpgxirennoaaosiaoiretentmbbefdvagmednurnaogbgiuatfirnsrfthfueoudnndlelwnlttosthosnhtrnliylnttbeneohhisriaruusdsidsuesiifodcohcuesteiennsxreerpnoynetuteeaheeaatrpatosatatwtittehfnltbwoelatgeeesgrermtydtfwasgnoynennasiueoudednuyenvriefhywewanmpdshmhftwetabcstotaerfjttonuoueitrosinactapennepnmpnnwnasrriaatrophlhfmsoseasntonebgwaeairilleidanmnnhrdetuoahelatuaieestsiedeuyuimeriahheyotsbtenusackaanoletitseaqfadsitnvtceesaeoonhtonmpnniinunatuainsdltmgetodiiwaeatoeripoyenholhsoauauynsofuhlssnymtcbfelrtfiedeueexaactapeohrsethdrnmuostwtwwwneieiittoilheitgaeonnnrin"
+
+def letterCounter(ciphertext):
+	alphabet = "abcdefghijklmnopqrstuvwxyz"
+	for letter in alphabet:
+		print(letter + ": " + str(ciphertext.count(letter)))
+
+
+letterCounter(ct)
