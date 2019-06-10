@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Sha5256 Bruter (CTF CHallenge)
+# Sha256 Bruter (CTF Challenge)
 
 import hashlib
 from sys import exit
@@ -8,7 +8,7 @@ file = open("findFlag.txt", "r")
 
 flagHashes = []
 
-alphabet = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,!;:\"()-?"
+alphabet = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,!;:\"()\\{\\}-_+=*&^%$#@\'\\/?"
 alphaHash = []
 
 for letter in alphabet:
